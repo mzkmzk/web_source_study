@@ -1,10 +1,19 @@
 # Buttons
 
-![Button效果](QQ20151216-0.png)
+![Button效果](QQ20151216-1.png)
+
+参考文件主要是`buttons.less` & `button.js`
 
 主要效果有:
 
 * 间距设置
+    
+        padding: @padding-vertical @padding-horizontal;
+        font-size: @font-size;
+        line-height: @line-height;
+        border-radius: @border-radius;
+
+    这里的属性值设置都在`variables.less`中
 * 按钮阴影设置
     这里的阴影指的是边框边边上的小阴影(很难看到,Mac几乎贴上去才看到有/无的效果)
         box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
