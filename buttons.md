@@ -2,6 +2,8 @@
 
 ![Button效果](QQ20151216-1.png)
 
+    参考文件主要是`buttons.less` & `button.js` & `mixins/buttons`
+
 在`Buttons.less`中,主要设置了`Button`的3个主要`Class`的样式.
 
 1. `.btn` 设置基本`间距` & `定位` & `border`等.
@@ -9,7 +11,7 @@
 3. `.btn-default/.../danger`覆盖`.btn`的`字体颜色` & `背景颜色` &
  `边框颜色`
 
-参考文件主要是`buttons.less` & `button.js` & `mixins/buttons`
+
 
 主要效果有:
 
