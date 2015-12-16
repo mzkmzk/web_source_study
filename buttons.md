@@ -20,7 +20,7 @@
     1. `inset`表示为内阴影,
     2. 阴影水平偏移值(\*+-) 阴影垂直偏移(\*+-) 阴影模糊值 阴影尺寸 阴影颜色
     3. `box-shadow`可参考<http://css.doyoe.com/>
-* `hover`,`active`时按钮有阴影
+* `hover`,`active`时按钮颜色变变.
     
          background-color: darken(@background, 17%);
          border-color: darken(@border, 25%);
