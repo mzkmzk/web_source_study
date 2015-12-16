@@ -13,7 +13,7 @@
 
 主要效果有:
 
-* 间距设置
+* 间距设置 & 圆角设置
     
         padding: @padding-vertical @padding-horizontal;
         font-size: @font-size;
@@ -31,7 +31,6 @@
     
          background-color: darken(@background, 17%);
          border-color: darken(@border, 25%);
-* 圆角设置
 * 按钮内文字不可选
 
         user-select: none;
