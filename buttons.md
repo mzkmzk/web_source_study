@@ -4,8 +4,8 @@
 
 设置`Button`时,主要设置3个`Class`
 
-1. `.btn` 设置`Button`的基本样式,间距 & 定位 & border等.
-2. 
+1. `.btn` 设置基本`间距` & `定位` & `border`等.
+2. `.btn-lg/sm/xs`设置
 
 参考文件主要是`buttons.less` & `button.js` & `mixins/buttons`
 
