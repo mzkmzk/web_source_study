@@ -26,7 +26,7 @@
         box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
     1. `inset`表示为内阴影,
     2. 阴影水平偏移值(\*+-) 阴影垂直偏移(\*+-) 阴影模糊值 阴影尺寸 阴影颜色
-    3. 可参考<http://css.doyoe.com/>
+    3. `box-shadow`可参考<http://css.doyoe.com/>
 * `hover`时按钮有阴影
 * 圆角设置
 * 点击的时候,阴影加深
