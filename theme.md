@@ -1,6 +1,8 @@
 # Theme
 
-在`theme.less`中,里面主要包含
+在`theme.less`中,分析时主要参考`docs/examples/theme.html`
+
+主要包含
 
 1. Button
 2. Image
@@ -12,4 +14,6 @@
 8. Panels
 9. Well
  
-##1. 
+##1. Button
+
+
