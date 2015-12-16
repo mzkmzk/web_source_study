@@ -2,6 +2,11 @@
 
 ![Button效果](QQ20151216-1.png)
 
+设置`Button`时,主要设置3个`Class`
+
+1. `.btn` 设置`Button`的基本样式,间距 & 定位 & border等.
+2. 
+
 参考文件主要是`buttons.less` & `button.js` & `mixins/buttons`
 
 主要效果有:
