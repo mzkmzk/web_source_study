@@ -25,7 +25,6 @@
          background-color: darken(@background, 17%);
          border-color: darken(@border, 25%);
 * 圆角设置
-* 点击了按钮之后,边框出现蓝色,失去焦点后才消失
 * 按钮内文字不可选
 
         user-select: none;
