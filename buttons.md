@@ -6,8 +6,8 @@
 
 1. `.btn` 设置基本`间距` & `定位` & `border`等.
 2. `.btn-lg/sm/xs`覆盖`.btn`的`间距` & `圆角` & `字体大小`.
-3. `.btn-default/.../danger`
-
+3. `.btn-default/.../danger`覆盖`.btn`的`字体颜色` & `背景颜色` &
+ `边框`
 参考文件主要是`buttons.less` & `button.js` & `mixins/buttons`
 
 主要效果有:
