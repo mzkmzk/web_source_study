@@ -77,3 +77,27 @@
     第二个就是紧凑的table的
     
     只是设定的`padding`不一样    
+
+除了这四种,`Bootstrap`的`table`还有
+
+1. `.table-hover`悬浮上去有背景颜色的
+
+        .table-hover {
+            > tbody > tr:hover {
+                background-color: @table-bg-hover;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
