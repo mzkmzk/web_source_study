@@ -139,10 +139,13 @@
 
     主要设置了
     
-    1. 横向导航条需要时,出现
+    1. 横向滑动条需要时,出现
     
-        overflow-x: auto;
-    2. 隐藏    
+            overflow-x: auto;
+    2. 隐藏纵向滑动条
+            overflow-y: hidden;
+    3. 文字禁止换行
+            white-space: nowrap;
 
 
 
