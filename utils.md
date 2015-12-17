@@ -5,3 +5,22 @@
 1. 如果你不熟悉`LESS`
  
     最好阅读这篇博客后再看`Bootstrap`源代码<http://www.bootcss.com/p/lesscss/>
+
+    1. `:extend`伪类的使用(必须在语句的最后)
+            //输入
+            nav ul {
+              &:extend(.inline);
+              background: blue;
+            }
+            .inline {
+              color: red;
+            }
+            
+            //输出
+            nav ul {
+              background: blue;
+            }
+            .inline,
+            nav ul {
+              color: red;
+            }
