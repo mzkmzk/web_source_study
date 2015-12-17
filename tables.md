@@ -135,7 +135,25 @@
     
     第二段重写了`table-hover`的效果.
 
+`talbes.less`还做了一个浏览器兼容
 
+在IE9~11和Firebox中,如果使用`class=col-`的话,会导致`postion=relative`,所以有了以下设置(笔者用FireFox已经该Bug被修复了)
+
+    table col[class*="col-"] {
+      position: static; // Prevent border hiding in Firefox and IE9-11 (see https://github.com/twbs/bootstrap/issues/11623)
+      float: none;
+      display: table-column;
+    }
+    table {
+      td,
+      th {
+        &[class*="col-"] {
+          position: static; // Prevent border hiding in Firefox and IE9-11 (see https://github.com/twbs/bootstrap/issues/11623)
+          float: none;
+          display: table-cell;
+        }
+      }
+    }
 
 
 
