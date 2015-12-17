@@ -37,7 +37,7 @@
         }
 1. `margin-lef/right:auto`设置居中 
 2. 设置`padding`
-3. 继承.cleafix的所有样式.
+3. 继承`.cleafix`的所有样式.(`.cleafix`作用:清楚浮动)
         
     
 顺序不能乱
