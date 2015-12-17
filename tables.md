@@ -4,7 +4,7 @@
 
 分析下这4个表格:
 
-基本的表格中,样式设置了
+基本的`.table`中,样式设置了
 
 1. 文字左边靠齐
 
@@ -12,4 +12,6 @@
         
 2. 边框颜色设置        
 
-         border-bottom: 2px solid @table-border-color;    
+         border-bottom: 2px solid @table-border-color;
+         
+         
