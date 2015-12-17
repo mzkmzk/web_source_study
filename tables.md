@@ -18,3 +18,8 @@
 
 note:`IE8及以下不支持:nth-chlid,该样式无效`
 
+        .table-striped {
+            > tbody > tr:nth-of-type(odd) {
+                background-color: @table-bg-accent;
+            }
+        }
