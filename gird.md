@@ -2,7 +2,7 @@
 
 设置主体的宽度和子模块的宽度
 
-响应式主要代码
+##1. `container` & `container-flxed`
 
     .container {
         .container-fixed();
@@ -17,3 +17,11 @@
             width: @container-lg;
         }
     }
+    
+    .container-fluid {
+        .container-fixed();
+    }
+    
+    效果就是`container`会去响应设置宽度为多少,而
+    
+顺序不能乱
