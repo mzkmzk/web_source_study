@@ -23,3 +23,24 @@ note:`IE8及以下不支持:nth-chlid,该样式无效`
                 background-color: @table-bg-accent;
             }
         }
+3. `.table-bordered`有边框线表格
+
+        .table-bordered {
+            border: 1px solid @table-border-color;
+            > thead,
+            > tbody,
+            > tfoot {
+                > tr {
+                  > th,
+                  > td {
+                    border: 1px solid @table-border-color;
+                  }
+                }
+              }
+              > thead > tr {
+                > th,
+                > td {
+                  border-bottom-width: 2px;
+                }
+              }
+            }
