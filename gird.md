@@ -15,5 +15,5 @@
         }
         @media (min-width: @screen-lg-min) {
             width: @container-lg;
-         }
+        }
     }
