@@ -109,8 +109,6 @@
         // Tables
 
         .table-row-variant(@state; @background) {
-          // Exact selectors below required to override `.table-striped` and prevent
-          // inheritance to nested tables.
           .table > thead > tr,
           .table > tbody > tr,
           .table > tfoot > tr {
