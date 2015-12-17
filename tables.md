@@ -16,7 +16,7 @@
          
 2. `.table-striped`条纹表格
 
-note:`IE8及以下不支持:nth-chlid,该样式无效`
+    note:`IE8及以下不支持:nth-chlid,该样式无效`
 
         .table-striped {
             > tbody > tr:nth-of-type(odd) {
@@ -28,7 +28,6 @@ note:`IE8及以下不支持:nth-chlid,该样式无效`
     代码中设置了2次,border,`.table-bordered`中定义主要为了表格最顶部的边框线,第二次在`thread(表头)` & `tbody(表内容)` & `tfoot(表腿)`中都设置了剩余的边框线.
     
     当然,还设置表头的下划线粗一点,设了`2px`
-    
     
         .table-bordered {
             border: 1px solid @table-border-color;
@@ -49,3 +48,7 @@ note:`IE8及以下不支持:nth-chlid,该样式无效`
                 }
               }
             }
+            
+4. `.table-condensed`紧凑的table
+
+    
