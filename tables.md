@@ -135,9 +135,21 @@
     
     第二段重写了`table-hover`的效果.
     
-3, `.table-responsive`    
+3. `.table-responsive`    
+
+    主要设置了
+    
+    1. 横向导航条需要时,出现
+    
+        overflow-x: auto;
+    2. 隐藏    
+
+
+
 
 `talbes.less`还做了一个浏览器兼容
+
+
 
 在IE9~11和Firebox中,如果使用`class=col-`的话,会导致`postion=relative`,所以有了以下设置(笔者用FireFox已经该Bug被修复了)
 
