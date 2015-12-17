@@ -92,7 +92,19 @@
             }
         }
 
-???疑问表格中的颜色代码如何实现的
+2. `.table`中`行`/`单元格`的颜色设置
+
+    次样式会覆盖`tabble-hover`的效果.
+    
+    `.tables.less`中定义
+    
+        .table-row-variant(active; @table-bg-active);
+        .table-row-variant(success; @state-success-bg);
+        .table-row-variant(info; @state-info-bg);
+        .table-row-variant(warning; @state-warning-bg);
+        .table-row-variant(danger; @state-danger-bg);
+        
+        
 
 
 
