@@ -94,8 +94,6 @@
 
 2. `.table`中`行`/`单元格`的颜色设置
 
-    次样式会覆盖`tabble-hover`的效果.
-    
     `.tables.less`中定义
     
         .table-row-variant(active; @table-bg-active);
@@ -133,7 +131,9 @@
           }
         }
 
-
+    第一段表示设定了单元格的背景颜色
+    
+    第二段重写了`table-hover`的效果.
 
 
 
