@@ -22,6 +22,10 @@
         .container-fixed();
     }
     
-效果就是`container`会去响应设置宽度为多少,而
+效果就是`container`会去响应设置宽度为多少,
+
+而`container-flxed`则默认100%
+
+
     
 顺序不能乱
