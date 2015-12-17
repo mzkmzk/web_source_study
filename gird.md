@@ -2,7 +2,7 @@
 
 设置主体的宽度和子模块的宽度
 
-##1. `container` & `container-flxed`
+##1. `container` & `container-fluid`
 
     .container {
         .container-fixed();
@@ -35,5 +35,9 @@
             padding-right: ceil((@gutter / 2));
             &:extend(.clearfix all);
         }
+1. `margin-lef/right:auto`设置居中 
+2. 设置`padding`
+3. 清楚继承此样式
+        
     
 顺序不能乱
