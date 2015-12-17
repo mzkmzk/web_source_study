@@ -134,6 +134,8 @@
     第一段表示设定了单元格的背景颜色
     
     第二段重写了`table-hover`的效果.
+    
+3, `.table-responsive`    
 
 `talbes.less`还做了一个浏览器兼容
 
