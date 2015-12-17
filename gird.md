@@ -24,8 +24,16 @@
     
 效果就是`container`会去响应设置宽度为多少,
 
-而`container-flxed`则默认100%
+而`container-flxed`则默认100%.
 
+`.container-fixed()`执行代码
 
+        .container-fixed(@gutter: @grid-gutter-width) {
+            margin-right: auto;
+            margin-left: auto;
+            padding-left:  floor((@gutter / 2));
+            padding-right: ceil((@gutter / 2));
+            &:extend(.clearfix all);
+        }
     
 顺序不能乱
