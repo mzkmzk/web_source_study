@@ -6,6 +6,10 @@
 
 基本的表格中,样式设置了
 
-1. 边框线合并.
+1. 文字左边靠齐
 
+        text-align: left;
         
+2. 边框颜色设置        
+
+         border-bottom: 2px solid @table-border-color;    
