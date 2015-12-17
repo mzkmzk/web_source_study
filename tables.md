@@ -137,6 +137,7 @@
     
 3. `.table-responsive`    
 
+    用法比较特殊,要在table的父元素中设置`.table-responsive`
     主要设置了
     
     1. 横向滑动条需要时,出现
@@ -144,8 +145,12 @@
             overflow-x: auto;
     2. 隐藏纵向滑动条
             overflow-y: hidden;
-    3. 文字禁止换行
+    3. `td`内文字禁止换行
             white-space: nowrap;
+    4. `IE9`的往右滑动会间接性抽风出现浏览器滑动条解决.
+    
+        在`.talbe-responsive`顶层设定
+             min-height: 0.01%;
 
 
 
