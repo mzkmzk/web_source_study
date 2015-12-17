@@ -24,3 +24,7 @@
             nav ul {
               color: red;
             }
+            
+            .c:extend(.d all) {
+                // 扩展".d"的所有实例，比如".x.d"或者".d.x"
+            }    
