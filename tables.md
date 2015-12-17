@@ -55,4 +55,15 @@
             
 4. `.table-condensed`紧凑的table
 
-    
+        .table-condensed {
+          > thead,
+          > tbody,
+          > tfoot {
+            > tr {
+              > th,
+              > td {
+                padding: @table-condensed-cell-padding;
+              }
+            }
+          }
+        }
