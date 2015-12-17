@@ -27,4 +27,30 @@
             
             .c:extend(.d all) {
                 // 扩展".d"的所有实例，比如".x.d"或者".d.x"
-            }    
+            }
+            
+            //输入
+            .a.b.test,
+            .test.c {
+              color: orange;
+            }
+            .test {
+              &:hover {
+                color: green;
+              }
+            }
+            
+            .replacement:extend(.test all) {}
+            
+            //输出
+            
+            .a.b.test,
+            .test.c,
+            .a.b.replacement,
+            .replacement.c {
+              color: orange;
+            }
+            .test:hover,
+            .replacement:hover {
+              color: green;
+            }
