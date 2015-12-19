@@ -88,7 +88,7 @@ Bootstrap如何生成这么多class?
 
 然后`col-@type-2~12`的`class`名字都通过第二个`.clo(...)`函数生成的.
 
-最后一个`.clo(...)`的@list代表给前面生成的`col-@{type}-@{index}`设置基本样式.
+最后一个`.clo(...)`的@list代表给前面生成的`col-@{type}-@{index}`设置定位方式和间距.
 
 
 
