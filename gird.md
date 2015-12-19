@@ -150,7 +150,13 @@ Bootstrap如何生成这么多class?
       }
     }
     
-这里可以看出来`col`的宽度百分比设置,`push` & `pull` 通过`left` & `right` 实现的,然后`offset`则是通过`margin-left`实现的.
+这里可以看出来
+
+`col`的宽度百分比设置
+
+`push` & `pull` 通过`left` & `right`实现的
+
+然后`offset`则是通过`margin-left`实现的.
 
 
 
