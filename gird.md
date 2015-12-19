@@ -119,6 +119,14 @@ Bootstrap如何生成这么多class?
 
 其实这里我不明白为什么一开始要`.make-grid-columns()`,这个方法我觉得是可以和`.float-grid-columns(@class)`合在一起的?.
 
+    .loop-grid-columns(@index, @class, @type) when (@index >= 0) {
+      .calc-grid-column(@index, @class, @type);
+      // next iteration
+      .loop-grid-columns((@index - 1), @class, @type);
+    }
+
+`.loop-grid-columns`的函数和之前的设置相反,是从12开始反着来的,
+
     .calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
       .col-@{class}-@{index} {
         width: percentage((@index / @grid-columns));
