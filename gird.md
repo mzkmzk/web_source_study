@@ -168,7 +168,7 @@ Bootstrap如何生成这么多class?
 
 `push`和`pull`的`0`的设置何用,主要是为了方便`left:auto` & `right:auto`的实现吗.?
 
-还有一点比较奇怪,`mixins/grid-framework.less` & ``mixins/gird.less`看起来的作用是一样的?
+还有一点比较奇怪,`mixins/grid-framework.less` & ``mixins/gird.less`看起来的作用是一样的?难道后者为了旧版本兼容?.
 
 
 
