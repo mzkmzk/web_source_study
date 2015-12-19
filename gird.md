@@ -56,6 +56,8 @@
 
 `index` 有`1~12(默认)`
 
+``
+
 Bootstrap如何生成这么多class?
 
     .make-grid-columns() {
@@ -89,6 +91,23 @@ Bootstrap如何生成这么多class?
 然后`col-@type-2~12`的`class`名字都通过第二个`.clo(...)`函数生成的.
 
 最后一个`.clo(...)`的@list代表给前面生成的`col-@{type}-@{index}`设置定位方式和间距.
+
+好了,基于样式定好了,怎么给`type`定义具体的宽度和漂浮呢
+
+    .make-grid(xs);
+    @media (min-width: @screen-sm-min) {
+        .make-grid(sm);
+    }
+    @media (min-width: @screen-md-min) {
+        .make-grid(md);
+    }
+    @media (min-width: @screen-lg-min) {
+        .make-grid(lg);
+    }
+
+
+
+
 
 
 
