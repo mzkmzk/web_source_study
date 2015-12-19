@@ -119,6 +119,36 @@ Bootstrap如何生成这么多class?
 
 其实这里我不明白为什么一开始要`.make-grid-columns()`,这个方法我觉得是可以和`.float-grid-columns(@class)`合在一起的?.
 
+    .calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
+      .col-@{class}-@{index} {
+        width: percentage((@index / @grid-columns));
+      }
+    }
+    .calc-grid-column(@index, @class, @type) when (@type = push) and (@index > 0) {
+      .col-@{class}-push-@{index} {
+        left: percentage((@index / @grid-columns));
+      }
+    }
+    .calc-grid-column(@index, @class, @type) when (@type = push) and (@index = 0) {
+      .col-@{class}-push-0 {
+        left: auto;
+      }
+    }
+    .calc-grid-column(@index, @class, @type) when (@type = pull) and (@index > 0) {
+      .col-@{class}-pull-@{index} {
+        right: percentage((@index / @grid-columns));
+      }
+    }
+    .calc-grid-column(@index, @class, @type) when (@type = pull) and (@index = 0) {
+      .col-@{class}-pull-0 {
+        right: auto;
+      }
+    }
+    .calc-grid-column(@index, @class, @type) when (@type = offset) {
+      .col-@{class}-offset-@{index} {
+        margin-left: percentage((@index / @grid-columns));
+      }
+    }
 
 
 
