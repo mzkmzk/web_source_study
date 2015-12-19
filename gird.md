@@ -107,6 +107,15 @@ Bootstrap如何生成这么多class?
     
 这里可能是为了省性能?.根据不同的尺寸生成特定的`class`
 
+    .make-grid(@class) {
+      .float-grid-columns(@class);
+      .loop-grid-columns(@grid-columns, @class, width);
+      .loop-grid-columns(@grid-columns, @class, pull);
+      .loop-grid-columns(@grid-columns, @class, push);
+      .loop-grid-columns(@grid-columns, @class, offset);
+    }
+    
+    
 
 
 
