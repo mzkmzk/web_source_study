@@ -104,6 +104,10 @@ Bootstrap如何生成这么多class?
     @media (min-width: @screen-lg-min) {
         .make-grid(lg);
     }
+    
+这里可能是为了省性能?.根据不同的尺寸生成特定的`class`
+
+
 
 
 
