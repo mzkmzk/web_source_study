@@ -38,4 +38,20 @@
 1. `margin-lef/right:auto`设置居中 
 2. 设置`padding`
 3. 继承`.cleafix`的所有样式.(`.cleafix`主要作用:清除浮动,参考<http://zh.learnlayout.com/clearfix.html>)
+
+##2. `.row`
+
+    // Creates a wrapper for a series of columns
+    .make-row(@gutter: @grid-gutter-width) {
+      margin-left:  ceil((@gutter / -2));
+      margin-right: floor((@gutter / -2));
+      &:extend(.clearfix all);
+    }
+    
+    主要是清除浮动和设置间距
+    
+##3. `col-@{type}-@{index}`
+
+
+
         
