@@ -52,6 +52,6 @@
     
 ##3. `col-@{type}-@{index}`
 
-
+`type`主要有`xs` & `sm` & `md` & `lg`
 
         
