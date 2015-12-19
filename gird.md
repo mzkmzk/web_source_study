@@ -158,7 +158,7 @@ Bootstrap如何生成这么多class?
 
 然后`offset`则是通过`margin-left`实现的.
 
-比较奇怪的是,`0`的设置何用?.
+`push`和`pull`的`0`的设置何用,主要是为了方便`left:auto` & `right:auto`的实现吗.
 
 
 
