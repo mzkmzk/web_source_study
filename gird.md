@@ -125,7 +125,7 @@ Bootstrap如何生成这么多class?
       .loop-grid-columns((@index - 1), @class, @type);
     }
 
-`.loop-grid-columns`的函数和之前的设置相反,是从12开始反着来的,
+`.loop-grid-columns`的函数和之前的设置相反,是从12开始反着来的,这应该是为了当class设了多个相同type,然后以小的为准?.
 
     .calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
       .col-@{class}-@{index} {
