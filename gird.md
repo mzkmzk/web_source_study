@@ -125,7 +125,7 @@ Bootstrap如何生成这么多class?
       .loop-grid-columns((@index - 1), @class, @type);
     }
 
-`.loop-grid-columns`的函数和之前的设置相反,是从12开始反着来的,这应该是为了当class设了多个相同type,然后以小的为准?.(笔者测试了一下,当`col-md-4` & `col-md-5`一起写,永远起的是`col-md-4`的作用,这应该可以说明声明`class`顺序和作用无关,CSS样式表中的顺序才是)
+`.loop-grid-columns`的函数和之前的设置相反,是从12开始反着来的,这应该是为了当class设了多个相同type,然后以小的为准?.(笔者测试了一下,当`col-md-4` & `col-md-5`一起写,永远起的是`col-md-4`的作用,这应该可以说明声明`class`顺序和作用无关,CSS样式表中的顺序才是关键)
 
     .calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
       .col-@{class}-@{index} {
@@ -168,7 +168,7 @@ Bootstrap如何生成这么多class?
 
 `push`和`pull`的`0`的设置何用,主要是为了方便`left:auto` & `right:auto`的实现吗.?
 
-
+还有一点比较奇怪,`mixins/grid-framework.less` & ``mixins/gird.less`看起来的作用是一样的?
 
 
 
