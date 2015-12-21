@@ -37,6 +37,7 @@
       color: @text-color;
       background-color: @body-bg;
     }
+设置全局字体属性.
     
     // Reset fonts for relevant elements
     input,
