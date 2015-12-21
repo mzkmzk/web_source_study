@@ -124,8 +124,26 @@
 
 4. 字体颜色
 
+![字体颜色](QQ20151221-1.png)
 
-
+    .text-muted {
+      color: @text-muted;
+    }
+    .text-primary {
+      .text-emphasis-variant(@brand-primary);
+    }
+    .text-success {
+      .text-emphasis-variant(@state-success-text);
+    }
+    .text-info {
+      .text-emphasis-variant(@state-info-text);
+    }
+    .text-warning {
+      .text-emphasis-variant(@state-warning-text);
+    }
+    .text-danger {
+      .text-emphasis-variant(@state-danger-text);
+    }
 
 
 
