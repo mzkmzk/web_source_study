@@ -56,7 +56,29 @@
     h6, .h6 { font-size: @font-size-h6; }
 
 1. 设置了默认的字体,字体粗细,行高,粗细
-2. `margin`和`small`在h1~h3 & h4~h6 做了不同的配置
+2. `margin`和`small`在`h1~h3` & `h4~h6` 做了不同的配置
+
+###1.2 内容字体
+
+    p {
+      margin: 0 0 (@line-height-computed / 2);
+    }
+    
+    .lead {
+      margin-bottom: @line-height-computed;
+      font-size: floor((@font-size-base * 1.15));
+      font-weight: 300;
+      line-height: 1.4;
+    
+      @media (min-width: @screen-sm-min) {
+        font-size: (@font-size-base * 1.5);
+      }
+    }
+    
+1. `p`标签设置了基本的`margin`和`h4~h6`的一致
+2. `.read`主要味儿了提供阅读做了
+    
+    2.1
 
 
 
