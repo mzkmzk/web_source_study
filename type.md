@@ -284,7 +284,7 @@
 
 ##3 引导块
 
-![引导块](QQ20151221-7.png)
+![引导块](QQ20151221-8.png)
 
     blockquote {
       padding: (@line-height-computed / 2) @line-height-computed;
