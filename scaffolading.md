@@ -146,5 +146,12 @@ a标签主要效果
  值得注意的是,这个类的响应式图片是块状且可计算的.
  
  
+##4. 杂项
 
+    hr {
+      margin-top:    20px;
+      margin-bottom: 20px;
+      border: 0;
+      border-top: 1px solid #eee;
+    }
 
