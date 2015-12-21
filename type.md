@@ -234,6 +234,27 @@
     3. 设置`li`只占据一块切可计算,设置padding
 2. 描述列表
 
+        dl {
+          margin-top: 0; // Remove browser default
+          margin-bottom: @line-height-computed;
+        }
+        dt,
+        dd {
+          line-height: @line-height-base;
+        }
+        dt {
+          font-weight: bold;
+        }
+        dd {
+          margin-left: 0; // Undo browser default
+        }
+    基本样式设计.
+    
+    竖排描述
+    
+    ![竖排描述](QQ20151221-6.png)
+
+
 
    
 
