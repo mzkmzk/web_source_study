@@ -68,7 +68,7 @@
     .placeholder(@color: @input-color-placeholder) {
       // Firefox
       &::-moz-placeholder {
-        color: #999;(灰色)
+        color: #999; //灰色
         opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
       }
       &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+
