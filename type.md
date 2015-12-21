@@ -254,6 +254,24 @@
     
     ![竖排描述](QQ20151221-6.png)
 
+            .dl-horizontal {
+              dd {
+                &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+              }
+            
+              @media (min-width: @dl-horizontal-breakpoint) {
+                dt {
+                  float: left;
+                  width: (@dl-horizontal-offset - 20);
+                  clear: left;
+                  text-align: right;
+                  .text-overflow();
+                }
+                dd {
+                  margin-left: @dl-horizontal-offset;
+                }
+              }
+            }
 
 
    
