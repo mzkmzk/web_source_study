@@ -39,6 +39,7 @@
       // HTML5 says that controls under a fieldset > legend:first-child won't be
       // disabled if the fieldset is disabled. Due to implementation difficulty, we
       // don't honor that edge case; we style them as disabled anyway.
+    //只读标签的灰色设置和小手改变  
       &[disabled],
       &[readonly],
       fieldset[disabled] & {
@@ -48,7 +49,7 @@
     
       &[disabled],
       fieldset[disabled] & {
-        cursor: @cursor-disabled;
+        cursor: not-allowed;
       }
     
       // Reset height for `textarea`s
