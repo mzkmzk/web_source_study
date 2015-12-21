@@ -1,5 +1,7 @@
 # Scaffolding
 
+##1 全局基本设置
+
 主要设置`Bootstrap`的前面准备工作.
 
     * {
