@@ -317,7 +317,8 @@
     }
 
 1. 设置了基本的`padding`和`margin`
-2. 
+2. `p`,'ul','ol'的最后一个子类`maring-bottom`为0
+3. 
 
 
    
