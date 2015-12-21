@@ -162,7 +162,38 @@
 
     ![显著文字](QQ20151221-4.png)
     
+        .bg-primary {
+          // Given the contrast here, this is the only class to have its color inverted
+          // automatically.
+          color: #fff;
+          .bg-variant(@brand-primary);
+        }
+        .bg-success {
+          .bg-variant(@state-success-bg);
+        }
+        .bg-info {
+          .bg-variant(@state-info-bg);
+        }
+        .bg-warning {
+          .bg-variant(@state-warning-bg);
+        }
+        .bg-danger {
+          .bg-variant(@state-danger-bg);
+        }
+        
+        .bg-variant(@color) {
+          background-color: @color;
+          a&:hover,
+          a&:focus {
+            background-color: darken(@color, 10%);
+          }
+        }
     
+    这里和字体颜色类似,只不过换成了背景颜色
+    
+    因为默认的`.bg-primart`为蓝色,故字体要换成白色,黑色不明显.   
+
+
 
     
     
