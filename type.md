@@ -286,6 +286,35 @@
 
 ![引导块](QQ20151221-7.png)
 
+    blockquote {
+      padding: (@line-height-computed / 2) @line-height-computed;
+      margin: 0 0 @line-height-computed;
+      font-size: @blockquote-font-size;
+      border-left: 5px solid @blockquote-border-color;
+    
+      p,
+      ul,
+      ol {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    
+      // Note: Deprecated small and .small as of v3.1.0
+      // Context: https://github.com/twbs/bootstrap/issues/11660
+      footer,
+      small,
+      .small {
+        display: block;
+        font-size: 80%; // back to default font-size
+        line-height: @line-height-base;
+        color: @blockquote-small-color;
+    
+        &:before {
+          content: '\2014 \00A0'; // em dash, nbsp
+        }
+      }
+    }
 
             
 
