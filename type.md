@@ -320,8 +320,28 @@
 2. `p`,'ul','ol'的最后一个子类`maring-bottom`为0
 3. `footer`等主要作标注作用,单独起一行,设置大小和行高,还有前面的`-`通过`:before`实现
 
+`.blockquote-reverse`的向右设定
 
-   
+    .blockquote-reverse,
+        blockquote.pull-right {
+          padding-right: 15px;
+          padding-left: 0;
+          border-right: 5px solid @blockquote-border-color;
+          border-left: 0;
+          text-align: right;
+        
+          // Account for citation
+          footer,
+          small,
+          .small {
+            &:before { content: ''; }
+            &:after {
+              content: '\00A0 \2014'; // nbsp, em dash
+            }
+          }
+        }
+1. 在`blockquote`增加了文本向右对齐,设置了前置`padding`
+2. 标注改在后面,用`:after`设置`-`,前面的`:before`为了覆盖之前`blockquote`的`-`.
 
 
     
