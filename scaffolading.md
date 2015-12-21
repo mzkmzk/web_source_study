@@ -157,3 +157,8 @@ a标签主要效果
 
 hr线重定义..
 
+    [role="button"] {
+      cursor: pointer;
+    }
+
+定义`[role='button]`鼠标变指针
