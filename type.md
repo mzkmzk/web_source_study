@@ -216,6 +216,22 @@
           padding-left: 0;
           list-style: none;
         }
+        
+    横排列表
+    
+        .list-inline {
+              .list-unstyled();
+              margin-left: -5px;
+            
+              > li {
+                display: inline-block;
+                padding-left: 5px;
+                padding-right: 5px;
+              }
+            }
+    1. 清除基本列表图标
+    2. `margin-left:-5px` 为了对齐,抵消列表默认会向右5px
+    3. 
 2. 
    
 
