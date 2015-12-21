@@ -5,9 +5,9 @@
    * [Gird](gird.md)
    * [Buttons](buttons.md)
    * [Tables](tables.md)
+   * [Type](type.md)
    * [Theme](theme.md)
    * [Utils](utils.md)
    * [UnKnow](unknow.md)
    * [Normalize](normalize.md)
-   * [Type](type.md)
 
