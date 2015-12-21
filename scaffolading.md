@@ -52,5 +52,32 @@
 常用的表单元素的字体属性都遵从父元素
 
 
+    a {
+      color: darken(#428bca, 6.5%);
+      text-decoration: none;
+    
+      &:hover,
+      &:focus {
+        color: darken(@link-color, 15%);
+        text-decoration: @link-hover-decoration;
+      }
+    
+      &:focus {
+        .tab-focus();
+      }
+    }
+    
+    .tab-focus() {
+      // Default
+      outline: thin dotted;
+      // WebKit
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
+    }
+
+
+a    
+
+
 
 
