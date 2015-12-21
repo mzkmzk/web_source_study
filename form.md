@@ -17,6 +17,7 @@
       border-radius: @input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
     //阴影设定,所以控件都有陷下去的感觉.  
       .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+    //  
       .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
     
       // Customize the `:focus` state to imitate native WebKit styles.
