@@ -17,6 +17,10 @@
     }
 
 
-所有元素都是遵循    
+所有元素都是遵循`border-box`原则
+
+即标签设定了`width`,然后再设定`padding`和`border`都会计算在`width`以内.
+
+
 
 
