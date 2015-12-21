@@ -95,16 +95,30 @@ a标签主要效果
     img {
       vertical-align: middle;
     }
+
+设置图片基于父元素的中部基线
     
     // Responsive images (ensure images don't scale beyond their parents)
     .img-responsive {
       .img-responsive();
     }
     
-    // Rounded corners
+    
+    .img-responsive(@display: block) {
+      display: @display;
+      max-width: 100%; // Part 1: Set a maximum relative to the parent
+      height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+    }
+    
+响应式图片
+
+1. 独占一行,能按比例缩小.
+    
+       // Rounded corners
     .img-rounded {
       border-radius: @border-radius-large;
     }
+
     
     // Image thumbnails
     //
