@@ -17,7 +17,7 @@
       border-radius: @input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
     //阴影设定,所以控件都有陷下去的感觉.  
       .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
-    //  
+    //过渡小效果.  
       .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
     
       // Customize the `:focus` state to imitate native WebKit styles.
@@ -53,5 +53,25 @@
       textarea& {
         height: auto;
       }
-}
+    }
+    
+    .form-control-focus(@color: @input-border-focus) {
+      @color-rgba: rgba(red(@color), green(@color), blue(@color), .6);
+      &:focus {
+        border-color: @color;
+        outline: 0;
+        .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px @{color-rgba}");
+      }
+    }
+    
+    .placeholder(@color: @input-color-placeholder) {
+      // Firefox
+      &::-moz-placeholder {
+        color: @color;
+        opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+      }
+      &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+
+      &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+    }    
+            
     
