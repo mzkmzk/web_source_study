@@ -130,11 +130,11 @@ a标签主要效果
     //
     // Heads up! This is mixin-ed into thumbnails.less for `.thumbnail`.
     .img-thumbnail {
-      padding: @thumbnail-padding;
-      line-height: @line-height-base;
-      background-color: @thumbnail-bg;
-      border: 1px solid @thumbnail-border;
-      border-radius: @thumbnail-border-radius;
+      padding: 4px;
+      line-height: 1.428571429;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
       .transition(all .2s ease-in-out);
     
       // Keep them at most 100% wide
