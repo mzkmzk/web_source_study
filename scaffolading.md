@@ -112,11 +112,12 @@ a标签主要效果
     
 响应式图片,独占一行,能按比例缩小.
     
-       // Rounded corners
+      // Rounded corners
     .img-rounded {
-      border-radius: @border-radius-large;
+      border-radius: 6px;
     }
 
+有一丢丢圆角...
     
     // Image thumbnails
     //
