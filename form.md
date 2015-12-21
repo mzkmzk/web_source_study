@@ -21,6 +21,7 @@
       .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
     
       // Customize the `:focus` state to imitate native WebKit styles.
+     //设置focus时旁边蓝色的显示,实现方法在下方.
       .form-control-focus();
     
       // Placeholder
@@ -67,7 +68,7 @@
     .placeholder(@color: @input-color-placeholder) {
       // Firefox
       &::-moz-placeholder {
-        color: @color;
+        color: #999;(灰色)
         opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
       }
       &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+
