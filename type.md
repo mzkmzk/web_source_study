@@ -343,8 +343,15 @@
 1. 在`blockquote`增加了文本向右对齐,设置了前置`padding`
 2. 标注改在后面,用`:after`设置`-`,前面的`:before`为了覆盖之前`blockquote`的`-`.
 
+##4 地址
 
-    
+    address {
+      margin-bottom: @line-height-computed;
+      font-style: normal;
+      line-height: @line-height-base;
+    }
+这个基本没有作用..    
+
     
     
 
