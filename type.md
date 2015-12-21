@@ -196,6 +196,29 @@
 ##2. List
 
 
+1. 有序 & 无序 列表
+
+        ul,
+        ol {
+          margin-top: 0;
+          margin-bottom: (@line-height-computed / 2);
+          ul,
+          ol {
+            margin-bottom: 0;
+          }
+        }
+            
+    基本的间距设置
+    
+    清除基本列表图标
+    
+        .list-unstyled {
+          padding-left: 0;
+          list-style: none;
+        }
+2. 
+   
+
 
     
     
