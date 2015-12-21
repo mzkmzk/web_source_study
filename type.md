@@ -109,9 +109,18 @@
     1. 设置了背景颜色
     2. 设置了padding为字体大小了0.2倍
 
-3. 
+3. 字体定位 & 大小写
 
-
+        .text-left           { text-align: left; }
+        .text-right          { text-align: right; }
+        .text-center         { text-align: center; }
+        .text-justify        { text-align: justify; }//两端对齐
+        .text-nowrap         { white-space: nowrap; }
+        
+        // Transformation
+        .text-lowercase      { text-transform: lowercase; }
+        .text-uppercase      { text-transform: uppercase; }
+        .text-capitalize     { text-transform: capitalize; }//首字母大写
 
 
 
