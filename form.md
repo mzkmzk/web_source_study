@@ -25,6 +25,7 @@
       .form-control-focus();
     
       // Placeholder
+    //提示文字的显示. 
       .placeholder();
     
       // Unstyle the caret on `<select>`s in IE10+.
