@@ -119,6 +119,13 @@ a标签主要效果
 
 有一丢丢圆角...
     
+    // Perfect circle
+    .img-circle {
+      border-radius: 50%; // set radius in percents
+    }
+    
+通过50%实现圆形显示    
+    
     // Image thumbnails
     //
     // Heads up! This is mixin-ed into thumbnails.less for `.thumbnail`.
@@ -134,9 +141,6 @@ a标签主要效果
       .img-responsive(inline-block);
     }
     
-    // Perfect circle
-    .img-circle {
-      border-radius: 50%; // set radius in percents
-    }
+    
 
 
