@@ -56,5 +56,8 @@
     h6, .h6 { font-size: @font-size-h6; }
 
 1. 设置了默认的字体,字体粗细,行高,粗细
-2. 
+2. `margin`和`small`在h1~h3 & h4~h6 做了不同的配置
+
+
+
 
