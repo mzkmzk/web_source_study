@@ -122,6 +122,7 @@
         .text-uppercase      { text-transform: uppercase; }
         .text-capitalize     { text-transform: capitalize; }//首字母大写
 
+4. 字体颜色
 
 
 
