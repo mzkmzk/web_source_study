@@ -84,7 +84,25 @@
 
     2.3. 小分辨率下增加文字大小.
     
-3. 
+##3. 辅助性文字
+
+1. 普通`small`
+    // Ex: (12px small font / 14px base font) * 100% = about 85%
+        small,
+        .small {
+          font-size: floor((100% * @font-size-small / @font-size-base));
+        }
+
+    
+2. 
+
+
+
+
+
+
+
+
 
     
     
