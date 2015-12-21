@@ -93,6 +93,12 @@
           font-size: floor((100% * @font-size-small / @font-size-base));
         }
 
+再看一下`@font-size-small`的设置
+
+    @font-size-small: ceil((@font-size-base * 0.85)); // ~12px
+    
+所以small一般为父元素的百分之85%~..
+
     
 2. 
 
