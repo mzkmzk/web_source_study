@@ -155,6 +155,42 @@ a标签主要效果
       border-top: 1px solid #eee;
     }
 
+hr线重定义
+
+    // Only display content to screen readers
+    //
+    // See: http://a11yproject.com/posts/how-to-hide-content/
+    
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+    
+    // Use in conjunction with .sr-only to only display content when it's focused.
+    // Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+    // Credit: HTML5 Boilerplate
+    
+    .sr-only-focusable {
+      &:active,
+      &:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+      }
+    }
+    
+作用未知
+
+
 hr线重定义..
 
     [role="button"] {
