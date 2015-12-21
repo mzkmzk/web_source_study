@@ -110,9 +110,7 @@ a标签主要效果
       height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
     }
     
-响应式图片
-
-1. 独占一行,能按比例缩小.
+响应式图片,独占一行,能按比例缩小.
     
        // Rounded corners
     .img-rounded {
