@@ -9,5 +9,5 @@
    * [Utils](utils.md)
    * [UnKnow](unknow.md)
    * [Normalize](normalize.md)
-   * Type
+   * [Type](type.md)
 
