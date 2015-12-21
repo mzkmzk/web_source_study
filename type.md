@@ -254,24 +254,36 @@
     
     ![竖排描述](QQ20151221-6.png)
 
-            .dl-horizontal {
-              dd {
-                &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
-              }
-            
-              @media (min-width: @dl-horizontal-breakpoint) {
-                dt {
-                  float: left;
-                  width: (@dl-horizontal-offset - 20);
-                  clear: left;
-                  text-align: right;
-                  .text-overflow();
-                }
-                dd {
-                  margin-left: @dl-horizontal-offset;
-                }
-              }
+        .dl-horizontal {
+          dd {
+            &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+          }
+        
+          @media (min-width: @dl-horizontal-breakpoint) {
+            dt {
+              float: left;
+              width: (@dl-horizontal-offset - 20);
+              clear: left;
+              text-align: right;
+              .text-overflow();
             }
+            dd {
+              margin-left: @dl-horizontal-offset;
+            }
+          }
+        }
+        
+        .text-overflow() {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+    1. `dd`清除dt的浮动影响
+    2. `dt`排列只在小屏幕下可行
+    3. `dt`文字过多时用`...`隐藏多出文字,`dt`漂浮向右.
+
+            
+            
 
 
    
