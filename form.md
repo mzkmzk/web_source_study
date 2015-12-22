@@ -372,6 +372,17 @@
 
 主要有`has-success` & `.has-warning` & `.has-error`
 
+使用
+
+```html
+<div class="form-group has-success">
+  <label class="control-label" for="inputSuccess1">Input with success</label>
+  <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+  <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+</div>
+```
+
+
 ```less
 .form-control-validation(@text-color: #555; @border-color: #ccc; @background-color: #f5f5f5) {
   // Color the label and help text
@@ -412,3 +423,19 @@
 1. 字体颜色设置
 2. 阴影设置
 3. 前置和后追加图标颜色处理.
+4. 
+
+##其他
+
+###.1 辅助提示
+
+![辅助提示](QQ20151222-9.png)
+```less
+.help-block {
+  display: block; // account for any element using help-block
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: lighten(@text-color, 25%); // lighten the text some for contrast
+}
+
+```
