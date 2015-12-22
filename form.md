@@ -208,4 +208,5 @@
 
 1.  display: inline-block;
 2.  `padding-left`直接给`label`
+3.  兄弟节点值钱设定了间距.
 
