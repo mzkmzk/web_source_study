@@ -75,6 +75,8 @@
       }
       &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+
       &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
-    }    
+    }
+    
+以上是`form`    
             
     
