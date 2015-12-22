@@ -1,5 +1,6 @@
 # Form
 
+```less
     .form-control {
     //基本间距大小定位.
       display: block;
@@ -76,7 +77,8 @@
       &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+
       &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
     }
-    
+```
+
 以上是`form`表单的基本样式设定  
 
     input[type="search"] {
@@ -86,5 +88,11 @@
 ![iOS搜索框问题](QQ20151222-0.png)
 
 这里主要为了解决iOS的兼容问题,iOS会默认用油圆角的搜索框,要去掉.
-            
-    
+
+```less
+  &::-moz-placeholder {
+        color: #999; //灰色
+        opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+      }
+```
+ 
