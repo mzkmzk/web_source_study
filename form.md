@@ -210,3 +210,4 @@
 2.  `padding-left`直接给`label`
 3.  兄弟节点值钱设定了间距.
 
+##3 `.form-horizontal` & `.form-group-lg` & `form-group-sm.`
