@@ -131,7 +131,15 @@
 
 ![基本单/多选样式](QQ20151222-1.png)
 
-
+用法: 
+```html
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+```
 
 
 
