@@ -83,6 +83,6 @@
       -webkit-appearance: none;
     }
 
-
+这里主要违纪解决iOS的兼容问题,iOS会默认用油圆角的搜索框,要去掉.
             
     
