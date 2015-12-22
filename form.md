@@ -121,4 +121,4 @@
   }
 }
 ```
-`iOS`设备 
+`iOS`设备当`display:block`的`input`文字会在框框里显示不出来. 
