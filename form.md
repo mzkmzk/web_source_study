@@ -141,7 +141,37 @@
 </div>
 ```
 
+```less
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
+  label {
+    min-height: @line-height-computed; // Ensure the input doesn't jump when there is no text
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+  }
+}
+
+```
+在父层div中,定义相对定位和间距.
+
+```less
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+
+```
 
 
 
