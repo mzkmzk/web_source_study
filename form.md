@@ -215,6 +215,7 @@
 ###3.1 `.form-inline`
 
 
+
 ```less
 .form-inline {
 
@@ -294,3 +295,6 @@
 1. display:inline-block
 2. vertical-align:middle
 
+###3.2 `form-horizontal`
+
+![form-horizontal](QQ20151222-7.png)
