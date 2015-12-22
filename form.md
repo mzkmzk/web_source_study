@@ -179,6 +179,12 @@
 
 ![选框在一行](QQ20151222-2.png)
 
+使用
+```html
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+</label>
+```
 ```less
 .radio-inline,
 .checkbox-inline {
@@ -197,4 +203,9 @@
   margin-left: 10px; // space out consecutive inline controls
 }
 ```
+
+和默认不同的是
+
+1.  display: inline-block;
+2.  `padding-left`直接给`label`
 
