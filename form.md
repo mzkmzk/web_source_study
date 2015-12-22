@@ -210,4 +210,11 @@
 2.  `padding-left`直接给`label`
 3.  兄弟节点值钱设定了间距.
 
-##3 `.form-horizontal` & `.form-group-lg` & `form-group-sm.`
+##3 `.form-inline` & `.form-horizontal` 
+
+###3.1 `.form-inline`
+
+这个最爽莫过于
+
+![最爽](QQ20151222-5.png)
+
