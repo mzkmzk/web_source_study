@@ -180,12 +180,6 @@
 ![选框在一行](QQ20151222-2.png)
 
 ```less
-.radio + .radio,
-.checkbox + .checkbox {
-  margin-top: -5px; // Move up sibling radios or checkboxes for tighter spacing
-}
-
-// Radios and checkboxes on same line
 .radio-inline,
 .checkbox-inline {
   position: relative;
@@ -196,6 +190,7 @@
   font-weight: normal;
   cursor: pointer;
 }
+
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
