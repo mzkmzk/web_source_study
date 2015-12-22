@@ -77,6 +77,12 @@
       &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
     }
     
-以上是`form`    
+以上是`form`表单的基本样式设定  
+
+    input[type="search"] {
+      -webkit-appearance: none;
+    }
+
+
             
     
