@@ -12,4 +12,5 @@
    * [Normalize](normalize.md)
    * [Scaffolading](scaffolading.md)
    * [Form](form.md)
+   * Components
 
