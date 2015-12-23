@@ -23,4 +23,18 @@
     
     ```
 2. 定义使用字体规范
+    ```less
+    .glyphicon {
+      position: relative;
+      top: 1px;
+      display: inline-block;//防止字体图标在IE7浏览器显示中图标右侧出现小方框现象
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;//防止字体图标的边缘进行模糊
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;//防止safair或chrome浏览器下被加粗
+      -moz-osx-font-smoothing: grayscale;
+    }
+    ```
+    参考链接<http://iconfont.cn/help/iconuse.html>
 3. 定义class
