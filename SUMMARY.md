@@ -13,5 +13,5 @@
    * [Scaffolading](scaffolading.md)
    * [Form](form.md)
    * [Components](components.md)
-* JavaScript
+* [JavaScript](javascript.md)
 
