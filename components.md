@@ -23,6 +23,7 @@
     
     ```
 2. 定义使用字体规范
+
     ```less
     .glyphicon {
       position: relative;
@@ -38,8 +39,14 @@
     ```
     参考链接<http://iconfont.cn/help/iconuse.html>
 3. 定义class
+
     ```less
     .glyphicon-asterisk               { &:before { content: "\002a"; } }
     .glyphicon-plus                   { &:before { content: "\002b"; } }
     ```
-    `icon`一般定义在`span`中,
+    `icon`一般定义在`span`中,定义成`:before`主要是能在前面加文字.你在`<span>`中加`\002a`是不现实的..
+4. 使用
+
+    ```html
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    ```
