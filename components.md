@@ -49,6 +49,10 @@
 
     ```html
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    
+    <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+    </button>
     ```
     
     `aria-hidden="true"`的意义在于避免屏幕识读设别内容抓取错误.
