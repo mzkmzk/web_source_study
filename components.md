@@ -13,12 +13,12 @@
     ```less
     @font-face {
       font-family: 'Glyphicons Halflings';
-      src: url('@{icon-font-path}@{icon-font-name}.eot');
-      src: url('@{icon-font-path}@{icon-font-name}.eot?#iefix') format('embedded-opentype'),
+      src: url('@{icon-font-path}@{icon-font-name}.eot');/* IE9*/
+      src: url('@{icon-font-path}@{icon-font-name}.eot?#iefix')/* IE6-IE8 */ format('embedded-opentype'),
            url('@{icon-font-path}@{icon-font-name}.woff2') format('woff2'),
-           url('@{icon-font-path}@{icon-font-name}.woff') format('woff'),
-           url('@{icon-font-path}@{icon-font-name}.ttf') format('truetype'),
-           url('@{icon-font-path}@{icon-font-name}.svg#@{icon-font-svg-id}') format('svg');
+           url('@{icon-font-path}@{icon-font-name}.woff') format('woff'),/* chrome、firefox */
+           url('@{icon-font-path}@{icon-font-name}.ttf') format('truetype'),/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+           url('@{icon-font-path}@{icon-font-name}.svg#@{icon-font-svg-id}') format('svg');/* iOS 4.1- */
     }
     
     ```
