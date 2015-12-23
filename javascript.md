@@ -1,3 +1,3 @@
 # JavaScript
 
-> Model.js
+> Model
