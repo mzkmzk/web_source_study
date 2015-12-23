@@ -50,3 +50,5 @@
     ```html
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
     ```
+    
+    `aria-hidden="true"`的意义在于避免屏幕识读设别内容抓取错误.
