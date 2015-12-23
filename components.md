@@ -38,3 +38,8 @@
     ```
     参考链接<http://iconfont.cn/help/iconuse.html>
 3. 定义class
+    ```less
+    .glyphicon-asterisk               { &:before { content: "\002a"; } }
+    .glyphicon-plus                   { &:before { content: "\002b"; } }
+    ```
+    `icon`一般定义在`span`中,
