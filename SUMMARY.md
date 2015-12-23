@@ -12,6 +12,6 @@
    * [Normalize](normalize.md)
    * [Scaffolading](scaffolading.md)
    * [Form](form.md)
-   * [JavaScript](javascript.md)
    * [Components](components.md)
+   * [JavaScript](javascript.md)
 
