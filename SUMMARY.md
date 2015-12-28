@@ -14,5 +14,5 @@
    * [Utils](utils.md)
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
-* jQuery1.8.3
+* [jQuery1.8.3](jquery183.md)
 
