@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * jQuery
 * [Bootstrap3.3.6](bootstrap336.md)
    * [Gird](gird.md)
    * [Buttons](buttons.md)
