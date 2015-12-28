@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [jQuery1.8.3](jquery183.md)
 * [Bootstrap3.3.6](bootstrap336.md)
    * [Gird](gird.md)
    * [Buttons](buttons.md)
@@ -14,5 +15,4 @@
    * [Utils](utils.md)
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
-* [jQuery1.8.3](jquery183.md)
 
