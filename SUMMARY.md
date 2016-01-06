@@ -17,6 +17,7 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
+   * [error](error.md)
    * [基本使用](ji_ben_shi_yong.md)
        * [error](error.md)
 
