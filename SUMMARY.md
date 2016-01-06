@@ -17,4 +17,5 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
+   * 基本使用
 
