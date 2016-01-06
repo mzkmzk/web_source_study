@@ -16,5 +16,5 @@
    * [Utils](utils.md)
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
-* Lory
+* [Lory](lory.md)
 
