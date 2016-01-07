@@ -5,7 +5,7 @@
 1. 轮播图如何设置定位
 
 
-##代码src结构
+##1. 代码src结构
 
     ├── src
     │   ├── defaults.js
@@ -16,5 +16,8 @@
     │       └── dispatch-event.js
 ##2. 读码顺序
 
-1. 先读utils
-2.
+###2.1. 先读utils
+
+`utils` 主要有两个函数
+
+`detect-prefixes.js`这是设置动画
