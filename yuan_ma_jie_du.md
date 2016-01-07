@@ -49,4 +49,6 @@ document.body.removeChild(el);
 
 ![获取动画属性](QQ20160107-2.png)
 
-.还有另外一个文件
+.还有另外一个文件`ispatch-event.js`,主要的作用是兼容事件绑定,用了<https://github.com/webmodules/custom-event>的插件
+
+
