@@ -48,3 +48,5 @@ document.body.removeChild(el);
 下面是笔者的尝试
 
 ![获取动画属性](QQ20160107-2.png)
+
+.还有另外一个文件
