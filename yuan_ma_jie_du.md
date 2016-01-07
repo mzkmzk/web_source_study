@@ -34,6 +34,15 @@
         }
 ```
 
+还有就是验证3d动画的可用性
+
+```javascript
+document.body.insertBefore(el, null);
+style[transform] = 'translate3d(0, 0, 0)';
+hasTranslate3d = !!global.getComputedStyle(el).getPropertyValue(transform);
+document.body.removeChild(el);    
+```
+
 这里先创建了一个`_`元素(其实创建什么标签并不要紧),然后判断style是否含有该属性,有的话就保存到`transition`中
 
 下面是笔者的尝试
