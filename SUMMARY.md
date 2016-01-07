@@ -18,6 +18,6 @@
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
    * [基本使用](ji_ben_shi_yong.md)
-   * [error](error.md)
    * [源码解读](yuan_ma_jie_du.md)
+   * [error](error.md)
 
