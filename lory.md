@@ -8,6 +8,6 @@ github<https://github.com/meandmax/lory>
 
 学到的知识点..
 
-1. 双感叹号的使用
+1. 双感叹号的使用. 参考<http://www.cnblogs.com/softlover/archive/2012/10/26/2741616.html>
 2. 动画的浏览器兼容.
 3. 
