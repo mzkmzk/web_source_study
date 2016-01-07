@@ -20,4 +20,19 @@
 
 `utils` 主要有两个函数
 
-`detect-prefixes.js`这是设置动画
+`detect-prefixes.js`这是设置动画属性的,由于不同浏览器可能需要不同的动画属性.
+
+```javascript
+ let el = document.createElement('_');
+        let style = el.style;
+
+        let prop;
+
+        if (style[prop = 'webkitTransition'] === '') {
+            transitionEnd = 'webkitTransitionEnd';
+            transition = prop;
+        }
+```
+
+这里先创建了一个`_`元素,然后判断style是否含有该属性,有的话就保存到`transition`中
+
