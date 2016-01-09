@@ -28,7 +28,8 @@ function hover_change_class($selector,class_change,class_default){
     });
 }
 
-我在函数里加几个`console`干嘛,我是想看一下在函数里使用this和$(this)和
-
+我在函数里加几个`console`干嘛,我是想看一下在函数里使用this和$(this)和专门的jquery选择权有何区别
 ```
+
+![jQuery的this和window的this](QQ20160109-1.png)
 
