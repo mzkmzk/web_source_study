@@ -33,3 +33,5 @@ function hover_change_class($selector,class_change,class_default){
 
 ![jQuery的this和window的this](QQ20160109-1.png)
 
+
+
