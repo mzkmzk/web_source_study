@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [jQuery1.8.3](jquery183.md)
    * [阅读前须懂](yue_du_qian_xu_dong.md)
-   * Error
+   * [Error](jQuery_error.md)
 * [Bootstrap3.3.6](bootstrap336.md)
    * [Gird](gird.md)
    * [Buttons](buttons.md)
