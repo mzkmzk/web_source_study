@@ -33,5 +33,7 @@ function hover_change_class($selector,class_change,class_default){
 
 ![jQuery的this和window的this](QQ20160109-1.png)
 
+第一行返回`<i>`标签比较好理解,因为的i标签绑定了事件,所以是i标签调用这个方法的,所以this为i标签
+
 
 
