@@ -27,7 +27,7 @@ function hover_change_class($selector,class_change,class_default){
         $selector.toggleClass(class_default);
     });
 }
-
+w
 我在函数里加几个`console`干嘛,我是想看一下在函数里使用this和$(this)和专门的jquery选择权有何区别
 ```
 
