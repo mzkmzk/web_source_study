@@ -192,6 +192,8 @@ function next () {
     slide(false, true);
 }
 ```
+从方法调用看,我们猜测的参数作用是对的
+
 
 
 
