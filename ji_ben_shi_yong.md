@@ -215,6 +215,13 @@ nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 //这里的min和max和上一处同理.
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
+//当定位超过最大宽度,返回第一张.
+if (rewind && Math.abs(position.x) === maxOffset && direction) {
+    nextOffset = 0;
+    nextIndex = 0;
+    duration = rewindSpeed;
+}
+
 //移动
 translate(nextOffset, duration, ease);
 
