@@ -18,5 +18,4 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
-   * [error](error.md)
 
