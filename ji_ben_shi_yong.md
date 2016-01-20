@@ -9,7 +9,7 @@
 
 把`lory/demo/js/lory.js`和`lory/demo/vendor/highlight.js`放到项目中.
 
-##2. 大概的html结构
+##2. html结构
 
 ```html
  <div class="slider js_slider">
