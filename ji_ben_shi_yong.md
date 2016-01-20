@@ -225,11 +225,6 @@ if (rewind && Math.abs(position.x) === maxOffset && direction) {
 //移动
 translate(nextOffset, duration, ease);
 
-//记录当前定位.
-position.x = nextOffset;
-
-//
-if (slides[nextIndex].offsetLeft <= maxOffset) {
-    index = nextIndex;
-}
 ```
+
+当然他的轮播方式有好几种,我这里只列举最简单的.但是原理都类似
