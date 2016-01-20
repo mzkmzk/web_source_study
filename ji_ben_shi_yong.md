@@ -202,7 +202,7 @@ function next () {
 //因为next时direction参数为true,index代表当前显示元素+1
 const nextSlide = direction ? index + 1 : index - 1;
 
-//获取全部li的总宽度,
+//获取全部li的总宽度,方便轮播到最后时做处理.
 const maxOffset = Math.round(slidesWidth - frameWidth);
 
 nextIndex = index + slidesToScroll;
