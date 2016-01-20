@@ -81,7 +81,7 @@ li {
     document.addEventListener('DOMContentLoaded', function() {
         var slider = document.querySelector('.js_slider');
 
-        lory(slider, {
+        var lory_one = lory(slider, {
             // options going here
         });
     });
@@ -125,4 +125,12 @@ li {
 | destory     | 销毁             |
 
 但是我们应该怎么调用它呢
+
+```javascript
+ var lory_one = lory(slider, {
+    // options going here
+});
+lory_one.prev();
+        
+```
 
