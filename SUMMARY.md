@@ -18,6 +18,5 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
-   * [源码解读](yuan_ma_jie_du.md)
    * [error](error.md)
 
