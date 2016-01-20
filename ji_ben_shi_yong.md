@@ -156,6 +156,8 @@ events.addEventListener('on.lory.destroy', handleEvent);
 
 里面定义了什么方法?.
 
+##7.1 setup().
+
 
 
 
