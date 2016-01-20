@@ -198,4 +198,9 @@ function next () {
 
 以正常的next方法跑一边思路
 
+```javascript
+//因为next时direction参数为true,index代表当前显示元素+1
+const nextSlide = direction ? index + 1 : index - 1;
 
+
+```
