@@ -146,6 +146,8 @@ events.addEventListener('on.lory.touchmove', handleEvent);
 events.addEventListener('on.lory.touchstart', handleEvent);
 events.addEventListener('on.lory.destroy', handleEvent);
 ```
-        
+##7. 源码分析
+
+
 
 
