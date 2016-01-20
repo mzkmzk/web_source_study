@@ -211,6 +211,8 @@ nextIndex = index + slidesToScroll;
 //里面的max为了pre到第一个的时候显示第0个,外面的min为了到最后一个的时候 显示最后一个.
 nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 
+//nextOffset一般为负值,负的宽度等于在轮播li隐藏前面li的宽度.
+//
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
 position.x = nextOffset;
