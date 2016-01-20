@@ -210,5 +210,9 @@ nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
+position.x = nextOffset;
 
+if (slides[nextIndex].offsetLeft <= maxOffset) {
+    index = nextIndex;
+}
 ```
