@@ -152,6 +152,10 @@ events.addEventListener('on.lory.destroy', handleEvent);
 
 `export function lory (slider, opts) {...}`
 
+第一个参数为要轮播的框架,第二个就是配置信息了.
+
+里面定义了什么方法?.
+
 
 
 
