@@ -158,6 +158,15 @@ events.addEventListener('on.lory.destroy', handleEvent);
 
 ##7.1 setup().
 
+在方法的头尾分别放上了
+
+```javascript
+dispatchSliderEvent('before', 'init');
+dispatchSliderEvent('after', 'init');
+```
+用来提供事件监听的接口.
+
+里面主要放的是事件的监听方法.
 
 
 
