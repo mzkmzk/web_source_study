@@ -172,7 +172,16 @@ dispatchSliderEvent('after', 'init');
 
 作用轮播框架,滑动是最主要的方法.
 
+参数:
 
+1. nextIndex 用来指明要调到第几张的参数.
+2. 判断正反方向的顺序
+
+看看在框架中,别的方法是如何调用它的
+
+```javascript
+
+```
 
 
 
