@@ -208,7 +208,7 @@ const maxOffset = Math.round(slidesWidth - frameWidth);
 //nextIndex的指向第nextIndex个li处.
 nextIndex = index + slidesToScroll;
 
-//里面的max为了pre到第一个的时候显示第0个,外面的min为了到最后一个的时候 显示u一个.
+//里面的max为了pre到第一个的时候显示第0个,外面的min为了到最后一个的时候 显示最后一个.
 nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
