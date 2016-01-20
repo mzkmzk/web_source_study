@@ -212,7 +212,7 @@ nextIndex = index + slidesToScroll;
 nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 
 //nextOffset一般为负值,负的宽度等于在轮播li隐藏前面li的宽度.
-//
+//这里的min和max和上一处同理.
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
 position.x = nextOffset;
