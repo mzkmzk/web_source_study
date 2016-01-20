@@ -1,5 +1,8 @@
 # 基本使用
 
+预览图
+
+![Lory预览图](QQ20160120-1.png)
 ##1. 下载插件
 
 `git clone git@github.com:meandmax/lory.git`
