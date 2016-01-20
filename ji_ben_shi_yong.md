@@ -45,7 +45,7 @@
     position: relative;
     font-size: 0;
     line-height: 0;
-    overflow: hidden;//由于
+    overflow: hidden;//由于所有元素都在一个ul中,对超出指定宽度(此CSS为880),隐藏元素.
     white-space: nowrap;//强制文本在一行中显示,除非遇到br
 }
 
