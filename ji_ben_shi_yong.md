@@ -110,7 +110,7 @@ li {
 | classNameNextCtrl       | 右按钮                                    | js_next                     |
 
 
-##5. 时间触发
+##5. 事件触发
 
 为了让开发者更好的控制轮播,Lory提供了7个API
 
