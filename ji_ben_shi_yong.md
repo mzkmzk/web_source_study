@@ -135,11 +135,11 @@ lory_one.prev();
 ##6. 事件监听
 
 ```javascript
- events.addEventListener('before.lory.init', handleEvent);
+var events = document.querySelector('.js_events');
+events.addEventListener('before.lory.init', handleEvent);
 events.addEventListener('after.lory.init', handleEvent);
 events.addEventListener('before.lory.slide', handleEvent);
 events.addEventListener('after.lory.slide', handleEvent);
-
 events.addEventListener('on.lory.resize', handleEvent);
 events.addEventListener('on.lory.touchend', handleEvent);
 events.addEventListener('on.lory.touchmove', handleEvent);
