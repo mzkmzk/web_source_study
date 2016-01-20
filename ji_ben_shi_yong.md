@@ -153,3 +153,5 @@ events.addEventListener('on.lory.destroy', handleEvent);
 `export function lory (slider, opts) {...}`
 
 
+
+
