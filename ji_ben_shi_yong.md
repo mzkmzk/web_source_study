@@ -46,7 +46,7 @@
     font-size: 0;
     line-height: 0;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: nowrap;//强制文本在一行中显示,除非遇到br
 }
 
 .slides {
@@ -67,4 +67,4 @@ li {
 定义也是主要的刚才3层加上`li`
 
 1. .slider{}里面可以定义具体轮播的显示位置问题
-2. 
+2. .frame{}给轮播框架定制了宽度
