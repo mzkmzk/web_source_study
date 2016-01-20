@@ -110,3 +110,5 @@ li {
 | classNameNextCtrl       | 右按钮                                    | js_next                     |
 
 
+##5. 时间触发
+
