@@ -180,7 +180,17 @@ dispatchSliderEvent('after', 'init');
 看看在框架中,别的方法是如何调用它的
 
 ```javascript
+function slideTo (index) {
+    slide(index);
+}
 
+function prev () {
+    slide(false, false);
+}
+
+function next () {
+    slide(false, true);
+}
 ```
 
 
