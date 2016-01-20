@@ -71,3 +71,19 @@ li {
 3. .slides的inline-block是为了让更多的li都放在一行并可计算宽度
 4. li和.slider设置类似.并且可以设置宽度
 
+##4. JS设置
+
+```javascript
+<script>
+    hljs.initHighlightingOnLoad();
+    'use strict';
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var slider = document.querySelector('.js_slider');
+
+        lory(slider, {
+            // options going here
+        });
+    });
+</script>
+```
