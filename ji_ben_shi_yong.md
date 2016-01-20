@@ -205,6 +205,7 @@ const nextSlide = direction ? index + 1 : index - 1;
 //获取全部li的总宽度,方便轮播到最后时做处理.
 const maxOffset = Math.round(slidesWidth - frameWidth);
 
+//nextIndex的指向第nextIndex个li处.
 nextIndex = index + slidesToScroll;
 
 nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
