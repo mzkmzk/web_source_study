@@ -2,6 +2,8 @@
 
 github<https://github.com/meandmax/lory>
 
+源码注释代码下载<https://github.com/mzkmzk/web_source_study/tree/master/lory>
+
 # 基本使用
 
 预览图
