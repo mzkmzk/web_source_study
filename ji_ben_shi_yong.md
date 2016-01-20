@@ -135,7 +135,7 @@ lory_one.prev();
 ##6. 事件监听
 
 ```javascript
-var events = document.querySelector('.js_events');
+var events = document.querySelector('.js_slider');
 events.addEventListener('before.lory.init', handleEvent);
 events.addEventListener('after.lory.init', handleEvent);
 events.addEventListener('before.lory.slide', handleEvent);
