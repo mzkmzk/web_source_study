@@ -150,4 +150,6 @@ events.addEventListener('on.lory.destroy', handleEvent);
 
 里面最主题是一个lory类
 
+`export function lory (slider, opts) {...}`
+
 
