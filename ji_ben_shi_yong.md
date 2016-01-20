@@ -196,11 +196,19 @@ function next () {
 
 轮播时,会把所有li都放在ul里,所以我们要控制的是ul要显示的哪一段的范围,这是核心的关键.
 
-以正常的next方法跑一边思路
+以正常的next且infinite为false的情况下跑一边思路
 
 ```javascript
 //因为next时direction参数为true,index代表当前显示元素+1
 const nextSlide = direction ? index + 1 : index - 1;
+
+const maxOffset = Math.round(slidesWidth - frameWidth);
+
+nextIndex = index + slidesToScroll;
+
+nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
+
+let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
 
 ```
