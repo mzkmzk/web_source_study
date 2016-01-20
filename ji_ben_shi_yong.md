@@ -92,3 +92,20 @@ li {
 
 先获取最外部的轮播框类,然后lory里可以设置详细的东西
 
+但是大家都看到了lory里的第二个参数为空的.可以设置什么参数呢?
+
+| 属性                    | 说明                                      | 默认值                      |
+|-------------------------|-------------------------------------------|-----------------------------|
+| slidesToScroll          | 自动轮播几次                              | 1                           |
+| infinite                | 类似传送带,你想后面重复多少个最前面的li   | false(不能和rewind一起使用) |
+| enableMouseEvents       | 是否鼠标左右拖动                          | false                       |
+| rewind                  | 最后一页直接滚回第一张(可以看到中间li)    | false                       |
+| slideSpeed              | 动画滑动间的间隔                          | 300                         |
+| rewindSpeed             | 设置了rewind,从最后一张滚回到第一张的时间 | 600                         |
+| snapBackSpeed           | 当滑动被打断,返回原状的时间               | 200                         |
+| ease                    | 滑动的形式http://easings.net/de           | ease                        |
+| classNameFrame          | 默认包含ul框架的元素名称                  | js_frame                    |
+| classNameSlideContainer | 默认ul框架的元素名称                      | js_slides                   |
+| classNamePrevCtrl       | 左按钮                                    | js_prev                     |
+| classNameNextCtrl       | 右按钮                                    | js_next                     |
+
