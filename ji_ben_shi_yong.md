@@ -131,6 +131,8 @@ li {
     // options going here
 });
 lory_one.prev();
+
+##6.
         
 ```
 
