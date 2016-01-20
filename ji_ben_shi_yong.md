@@ -168,5 +168,11 @@ dispatchSliderEvent('after', 'init');
 
 里面主要放的是事件的监听方法.
 
+##7.2 slide(nextIndex,direction)
+
+作用轮播框架,滑动是最主要的方法.
+
+
+
 
 
