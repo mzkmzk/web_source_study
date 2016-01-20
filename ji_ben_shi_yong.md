@@ -45,7 +45,7 @@
     position: relative;
     font-size: 0;
     line-height: 0;
-    overflow: hidden;
+    overflow: hidden;//由于
     white-space: nowrap;//强制文本在一行中显示,除非遇到br
 }
 
