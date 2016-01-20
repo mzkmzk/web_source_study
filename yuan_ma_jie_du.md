@@ -1,15 +1,6 @@
 # 源码解读
 
-##1. 代码src结构
 
-    ├── src
-    │   ├── defaults.js
-    │   ├── jquery.lory.js
-    │   ├── lory.js
-    │   └── utils
-    │       ├── detect-prefixes.js
-    │       └── dispatch-event.js
-##2. 读码顺序
 
 ###2.1. 先读utils
 
