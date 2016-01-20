@@ -148,6 +148,6 @@ events.addEventListener('on.lory.destroy', handleEvent);
 ```
 ##7. 源码分析
 
-
+里面最主题是一个lory类
 
 
