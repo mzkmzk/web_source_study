@@ -31,4 +31,36 @@
 2. 第二层`js_frame`是把内部框架定位,主要为了帮左右按钮定位.
 3. 第三层`js_slides`主要里面放重要的轮播元素li
 
+##3. CSS定义
+
+```CSS
+.slider {}
+
+.frame {
+    /**
+     * (optional) wrapper width, specifies width of the slider frame.
+     */
+    width: 880px;
+
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slides {
+    display: inline-block;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+
+    /**
+     * (optional) if the content inside the slide element has a defined size.
+     */
+    width: 880px;
+}
+```
 
