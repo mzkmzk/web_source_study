@@ -215,7 +215,10 @@ nextIndex = Math.min(Math.max(nextIndex, 0), slides.length - 1);
 //这里的min和max和上一处同理.
 let nextOffset = Math.min(Math.max(slides[nextIndex].offsetLeft * -1, maxOffset * -1), 0);
 
-//判断好定位以后,设置定位
+//移动
+translate(nextOffset, duration, ease);
+
+//记录当前定位.
 position.x = nextOffset;
 
 //
