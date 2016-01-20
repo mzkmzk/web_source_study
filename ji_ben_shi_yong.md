@@ -228,3 +228,5 @@ translate(nextOffset, duration, ease);
 ```
 
 当然他的轮播方式有好几种,我这里只列举最简单的.但是原理都类似
+
+
