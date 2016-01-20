@@ -175,7 +175,7 @@ dispatchSliderEvent('after', 'init');
 参数:
 
 1. nextIndex 用来指明要调到第几张的参数.
-2. 判断/下的顺序
+2. 判断上/下.
 
 看看在框架中,别的方法是如何调用它的
 
