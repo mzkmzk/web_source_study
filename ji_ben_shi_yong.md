@@ -33,7 +33,7 @@
 
 ##3. CSS定义
 
-```CSS
+```css
 .slider {}
 
 .frame {
