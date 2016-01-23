@@ -53,6 +53,10 @@ each: function( obj, callback ) {
 ```
 也很好懂,类数组就直接for循环,而数组就直接`for in`
 
+###2. trim方法
+
+网上一堆情况前后空格换行符的方法..看jQuery怎么玩的
+
 
 
 
