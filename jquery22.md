@@ -29,6 +29,9 @@ rquickExpr.exec(selector);
 ##2. 获取数组元素负数实现
 
 ```javascript
+eq: function( i ) {
 var len = this.length,
-j = +i + ( i < 0 ? len : 0 );
+	j = +i + ( i < 0 ? len : 0 );
+    return this.pushStack( j >= 0 && j < len ? [ this[ j ] ] : [] );
+},
 ```
