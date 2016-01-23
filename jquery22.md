@@ -20,7 +20,7 @@ src部分有很多js和文件夹同名的文件.
 
 ###1. each对数组和类数组和数组的处理
 
-what is 类数组?
+what is 类数组?参考<https://segmentfault.com/a/1190000000415572>
 
 1. 拥有length属性,且值为非负整数.
 2. 不具备数组的所有方法.
@@ -28,6 +28,7 @@ what is 类数组?
 一般长这样`var a = {'1':'gg','2':'love','4':'meimei',length:5};
 `
 
+对于类数组,javascript权威指南
 
 
 
