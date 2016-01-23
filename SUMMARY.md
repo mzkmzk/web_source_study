@@ -15,4 +15,5 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
+* jQuery2.2
 
