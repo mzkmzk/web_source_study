@@ -58,6 +58,8 @@ each: function( obj, callback ) {
 网上一堆情况前后空格换行符的方法..看jQuery怎么玩的
 
 ```javascript
+rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
+
 trim: function( text ) {
 		return text == null ?
 			"" :
