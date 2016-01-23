@@ -16,9 +16,15 @@ src部分有很多js和文件夹同名的文件.
 
 基本一个目录都是为同名的js提供方法的.
 
+##有趣的点
+
+###1. each对数组和类数组的处理
+
+
+
 ##额外知识点
 
-##1. #id选择器的XSS过滤正则
+###1. #id选择器的XSS过滤正则
 
 ```javascript
 var rquickExpr = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/;
@@ -26,7 +32,7 @@ rquickExpr.exec(selector);
 
 ```
 
-##2. 获取数组元素负数实现
+###2. 获取数组元素负数实现
 
 ```javascript
 eq: function( i ) {
