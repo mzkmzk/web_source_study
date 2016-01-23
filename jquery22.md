@@ -68,7 +68,9 @@ trim: function( text ) {
 	
 ````
 
-提下过滤项`\uFEFF`是UTF-8+BOM
+提下过滤项`\uFEFF`是UTF-8+BOM,一般JSON.parse失败很可能因为这个原因.
+
+xA0则代表换行符等.
 
 
 ##额外知识点
