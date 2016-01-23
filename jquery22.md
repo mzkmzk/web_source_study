@@ -1,5 +1,7 @@
-# jQuery2.2
+# jQuery-2.2
 
+源码注释地址<>
+GitBook地址<https://mzkmzk.gitbooks.io/mzkmzk-web_source_study/content/jquery22.html>
 ##1. 读前准备
 
 1. 下载源码<https://github.com/jquery/jquery/tree/2.2-stable>
