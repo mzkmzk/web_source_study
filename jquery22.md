@@ -68,6 +68,7 @@ trim: function( text ) {
 	
 ````
 
+提下过滤项`\uFEFF`是UTF-8+BOM
 
 
 ##额外知识点
