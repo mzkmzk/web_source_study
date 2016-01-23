@@ -28,6 +28,31 @@ what is 类数组?参考<https://segmentfault.com/a/1190000000415572>
 一般长这样`var a = {'1':'gg','2':'love','4':'meimei',length:5};
 `
 
+jQuery对each的写法是:
+```javascript
+each: function( obj, callback ) {
+		var length, i = 0;
+
+		if ( isArrayLike( obj ) ) {
+			length = obj.length;
+			for ( ; i < length; i++ ) {
+				if ( callback.call( obj[ i ], i, obj[ i ] ) === false ) {
+					break;
+				}
+			}
+		} else {
+			for ( i in obj ) {
+				if ( callback.call( obj[ i ], i, obj[ i ] ) === false ) {
+					break;
+				}
+			}
+		}
+
+		return obj;
+	},
+```
+也很好懂,类数组就直接for循环,而数组就直接`for in`
+
 
 
 
