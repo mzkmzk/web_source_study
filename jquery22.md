@@ -28,7 +28,6 @@ what is 类数组?参考<https://segmentfault.com/a/1190000000415572>
 一般长这样`var a = {'1':'gg','2':'love','4':'meimei',length:5};
 `
 
-对于类数组,javascript权威指南
 
 
 
