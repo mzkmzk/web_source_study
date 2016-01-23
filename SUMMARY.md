@@ -15,5 +15,5 @@
    * [UnKnow](unknow.md)
    * [JavaScript](javascript.md)
 * [Lory](lory.md)
-* jQuery2.2
+* [jQuery2.2](jquery22.md)
 
