@@ -72,6 +72,8 @@ trim: function( text ) {
 
 xA0则代表换行符等.
 
+参考<https://imququ.com/post/bom-and-javascript-trim.html>
+
 
 ##额外知识点
 
