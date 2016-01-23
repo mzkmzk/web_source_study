@@ -25,3 +25,10 @@ var rquickExpr = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/;
 rquickExpr.exec(selector);
 
 ```
+
+##2. 获取数组元素负数实现
+
+```javascript
+var len = this.length,
+j = +i + ( i < 0 ? len : 0 );
+```
