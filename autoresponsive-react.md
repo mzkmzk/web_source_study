@@ -17,4 +17,6 @@ github地址<https://github.com/xudafeng/autoresponsive-react>
 
 2. 参数配置
 
-    在
+    在`~/lib/index.js`最下面有个配置属性
+    
+    
