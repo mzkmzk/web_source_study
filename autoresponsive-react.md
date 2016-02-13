@@ -14,4 +14,7 @@ github地址<https://github.com/xudafeng/autoresponsive-react>
 
     1. clone下到本地
     2. cd到项目根目录 `make install` ->`make server`
-    
+
+2. 参数配置
+
+    在
