@@ -36,3 +36,5 @@ AutoResponsive.defaultProps = {
   onContainerDidLayout: noop
 };
     ```
+    
+3.     
