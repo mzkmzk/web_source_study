@@ -21,19 +21,19 @@ github地址<https://github.com/xudafeng/autoresponsive-react>
     
     ```javascript
 AutoResponsive.defaultProps = {
-  containerWidth: null,
-  containerHeight: null,
-  gridWidth: 10,
-  prefixClassName: 'rc-autoresponsive',
-  itemClassName: 'item',
-  itemMargin: 0,
-  horizontalDirection: 'left',
-  transitionDuration: 1,
-  transitionTimingFunction: 'linear',
-  verticalDirection: 'top',
-  closeAnimation: false,
-  onItemDidLayout: noop,
-  onContainerDidLayout: noop
+    containerWidth: null, //容器总体宽度
+    containerHeight: null,//容器高度
+    gridWidth: 10, //栅格宽度，栅格宽度值会影响布局的精确度，同时也会影响渲染效率
+    prefixClassName: 'rc-autoresponsive', //容器的className
+    itemClassName: 'item', //布局元素选择器
+    itemMargin: 0, //布局元素间距
+    horizontalDirection: 'left',//水平渲染方向
+    transitionDuration: 1, //动画持续时间
+    transitionTimingFunction: 'linear', //动画持续效果
+    verticalDirection: 'top', //垂直渲染方向
+    closeAnimation: false, //是否关闭动画
+    onItemDidLayout: noop, //渲染前，layout 完成后触发的
+    onContainerDidLayout: noop //渲染前,子节点完成后出发
 };
     ```
     
