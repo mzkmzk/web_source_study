@@ -9,3 +9,4 @@ GitBook地址<https://mzkmzk.gitbooks.io/mzkmzk-web_source_study/content/index.h
     2. jQuery
     3. Lory(基本完成)
     4. Kindedtior
+    5. spin.js
