@@ -31,6 +31,52 @@ github地址:
 
 在colResizable方法中,可以提供一下对象来自定义
 
+1. draggingClass
+
+    这个会在table的外面一层添加一个div,class设置为draggingClass的值.
+    
+    ```css
+    .JColResizer {
+	table-layout:fixed;
+    }
+    .JColResizer td,.JColResizer th {
+    	overflow:hidden;
+    	padding-left:0!important;
+    	padding-right:0!important;
+    }
+    .JCLRgrips {
+    	height:0px;
+    	position:relative;
+    }
+    .JCLRgrip {
+    	margin-left:-5px;
+    	position:absolute;
+    	z-index:5;
+    }
+    .JCLRgrip .JColResizer {
+    	position:absolute;
+    	background-color:red;
+    	filter:alpha(opacity=1);
+    	opacity:0;
+    	width:10px;
+    	height:100%;
+    	cursor:e-resize;
+    	top:0px
+    }
+    .JCLRLastGrip {
+    	position:absolute;
+    	width:1px;
+    }
+    .JCLRgripDrag {
+    	border-left:1px dotted black;
+    }
+    .JCLRFlex {
+    	width:auto!important;
+    }
+
+    ```
+2. 3
+
 ```javascript
 //attributes:
 draggingClass: 'JCLRgripDrag',	//css-class used when a grip is being dragged (for visual feedback purposes)
