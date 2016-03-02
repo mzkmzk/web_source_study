@@ -31,3 +31,7 @@ github地址:
 
 在colResizable方法中,可以提供一下对象来自定义
 
+```javascript
+
+
+```
