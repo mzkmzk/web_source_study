@@ -17,4 +17,5 @@
 * [Lory](lory.md)
 * [jQuery-2.2](jquery22.md)
 * [autoresponsive-react](autoresponsive-react.md)
+* ColRasizable
 
