@@ -5,3 +5,6 @@
 github地址:
 
 <https://github.com/alvaro-prieto/colResizable>
+
+##1. 使用方法
+
