@@ -100,3 +100,8 @@ onDrag: null, 					//callback function to be fired during the column resizing pr
 onResize: null					//callback function fired when the dragging process is over
 
 ```
+
+##3. 自定义修改过程
+
+###3.1 把拖拉的右箭头改为左右箭头
+
