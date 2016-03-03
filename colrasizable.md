@@ -67,6 +67,7 @@ github地址:
     	position:absolute;
     	width:1px;
     }
+    <!--默认-->
     .JCLRgripDrag {
     	border-left:1px dotted black;
     }
