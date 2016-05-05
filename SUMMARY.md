@@ -19,4 +19,5 @@
 * [autoresponsive-react](autoresponsive-react.md)
 * [ColRasizable](colrasizable.md)
 * [react-web](react-web.md)
+* html2canvas
 
