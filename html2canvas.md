@@ -17,7 +17,10 @@
     
     则从迅雷下载`https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-macosx.zip
 `,然后找到node_modules中找到`phantomjs`,然后把下载的文件夹里的内容,把里面重复的部分覆盖掉.
-3. grunt: 没报错则成功
+3. grunt: 没报错则安装成功
 
+## 2. 读前须知
+
+JS如何获取CSS进行分析
 
 
