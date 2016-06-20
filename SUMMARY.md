@@ -20,4 +20,5 @@
 * [ColRasizable](colrasizable.md)
 * [react-web](react-web.md)
 * [html2canvas](html2canvas.md)
+   * Utils
 
